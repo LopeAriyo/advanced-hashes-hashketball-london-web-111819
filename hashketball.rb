@@ -343,7 +343,7 @@ def winning_team
 
                 if total_points[0] > total_points[1]
 
-                elsif total_points[1] > total_points [0]
+                elsif total_points[1] > total_points[0]
 
                 end
 
