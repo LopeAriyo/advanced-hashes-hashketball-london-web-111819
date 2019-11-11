@@ -287,7 +287,7 @@ end
 def most_points_scored
 
   #same concept as last method
-  
+
   points = []
   most_points = ""
   player_name = ""
@@ -320,7 +320,7 @@ end
 
 def winning_team
 
-  
+
 end
 
 def player_with_longest_name
