@@ -348,7 +348,13 @@ def winning_team
 
 
                 #value.each do |player|
-                if total_points[0].to_i == most_points
+                if total_points[0] > total_points[1]
+
+                elsif total_points[1] > total_points [0]
+
+                end
+                  
+                  .to_i == most_points
                       #player_name= player[:player_name]
                       #binding.pry
 
