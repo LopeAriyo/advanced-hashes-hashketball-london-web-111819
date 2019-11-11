@@ -337,11 +337,11 @@ def winning_team
                 #    points = points + player[:points].to_i
                 #end
 
-          
+
               #  value.each do |player|
                 #  if player[:points].to_i == most_points
                     #  player_name= player[:player_name]
-                      
+
 
                   #end
                 #end
