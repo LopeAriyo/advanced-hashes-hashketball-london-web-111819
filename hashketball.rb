@@ -370,13 +370,8 @@ def player_with_longest_name
 
 
   length_of_name = []
-  longest_name_size = ""
   longest_name = ""
 
-
-  points = []
-  most_points = ""
-  player_name = ""
 
     game_hash.each do |team, team_data|
         team_data.each do |key, value|
@@ -388,9 +383,6 @@ def player_with_longest_name
 
                 length_of_name = length_of_name.sort_by{ |name| name.length}
                 longest_name = length_of_name[length_of_name.length-1]
-
-
-
 
             end
         end
