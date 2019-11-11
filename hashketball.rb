@@ -335,20 +335,22 @@ def winning_team
             if key == :players
 
                 value.each do |player|
-                    points.push(player[:points].to_i)
+                    points = points + player[:points].to_i
+                    total_points.push(points)
                 end
+                
 
-                points = points.sort
-                most_points = points[points.length-1]
+                #points = points.sort
+                #most_points = points[points.length-1]
 
 
-                value.each do |player|
-                  if player[:points].to_i == most_points
-                      player_name= player[:player_name]
+                #value.each do |player|
+                  #if player[:points].to_i == most_points
+                      #player_name= player[:player_name]
                       #binding.pry
 
-                  end
-                end
+                  #end
+                #end
 
             end
         end
