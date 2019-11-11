@@ -229,8 +229,11 @@ def player_stats(player_name)
               if key == :players
                   value.each do |player|
                       if player[:player_name] == player_name
+
+                        
                         stats = player.delete_if do |k,v|
                         k  == :player_name
+                        
                       end
                       end
                   end
