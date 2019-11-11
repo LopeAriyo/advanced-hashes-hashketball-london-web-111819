@@ -265,7 +265,7 @@ size = []
                       #binding.pry
               end
 
-              size.sort
+              size = size.sort
           end
       end
   end
