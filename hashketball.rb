@@ -381,7 +381,7 @@ def player_with_longest_name
                     length_of_name.push(player[:player_name].length-1)
                 end
 
-  
+
                 length_of_name = length_of_name.sort
                 longest_name_size = length_of_name[length_of_name.length-1]
 
