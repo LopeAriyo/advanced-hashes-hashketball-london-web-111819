@@ -394,9 +394,11 @@ def player_with_longest_name
 
                 #end
 
-                return longest_name_size
+                
 
             end
+
+            return longest_name_size
         end
     end
 end
