@@ -386,22 +386,16 @@ def player_with_longest_name
                     length_of_name.push(player[:player_name)
                 end
 
-                points = points.sort
-                most_points = points[points.length-1]
+                length_of_name = length_of_name.by{ |name| name.length}
+                longest_name = length_of_name[length_of_name.length-1]
 
 
-                value.each do |player|
-                  if player[:points].to_i == most_points
-                      player_name= player[:player_name]
-                      #binding.pry
-
-                  end
-                end
+              
 
             end
         end
     end
-player_name
+longest_name
 
 
 
