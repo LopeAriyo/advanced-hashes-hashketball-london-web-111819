@@ -346,9 +346,11 @@ def winning_team
 
             elsif total_points[1] > total_points[0]
 
+              binding.pry
+
             end
 
-            #  binding.pry
+            #  
         end
     end
 
