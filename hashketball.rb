@@ -272,7 +272,7 @@ rebounds = ""
 
               value.each do |player|
                 if player[:shoe] == biggest_size
-                  #rebounds = player[:rebounds]
+                  #rebounds = player[:rebounds].to_i
                   #return rebounds
                   binding.pry
                 end
