@@ -257,21 +257,15 @@ def big_shoe_rebounds
 
   game_hash.each do |team, team_data|
       team_data.each do |key, value|
-        #  if key == :players
-          #    value.each do |player|
-            #      if player[:player_name] == player_name
-                  #  player.each do |k,v|
-
-                      #stats[k]=(v).to_i
-
-
-                      binding.pry
-                    #end
-
-
-                #end
-            #  end
-        #  end
+          if key == :players
+              value.each do |player|
+                  if player[:player_name] == player_name
+                      size = player[:shoe].to_i
+                      return size
+                      #binding.pry
+                  end
+              end
+          end
       end
   end
 
