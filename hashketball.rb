@@ -223,7 +223,6 @@ end
 def player_stats(player_name)
 
   stats = {}
-  temp_hash = {}
 
       game_hash.each do |team, team_data|
           team_data.each do |key, value|
@@ -234,6 +233,8 @@ def player_stats(player_name)
                         stats = player.delete_if do |k,v|
                         k  == :player_name
                         end
+
+                        #edit 
 
                       end
                   end
