@@ -234,7 +234,7 @@ def player_stats(player_name)
                         k  == :player_name
                         end
 
-                        #edit 
+                        #edit
                         binding.pry
 
                       end
