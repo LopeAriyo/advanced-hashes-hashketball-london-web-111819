@@ -237,12 +237,9 @@ def player_stats(player_name)
                           #binding.pry
                         end
 
-                        #player.delete_if do |k,v|
-                        #k  == :player_name
-                        #end
-
-                        #edit
-
+                        stats.delete_if do |k,v|
+                        k  == :player_name
+                        end
 
                       end
                   end
