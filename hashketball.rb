@@ -341,15 +341,14 @@ def winning_team
                 total_points.push(points)
                 points = 0
 
-                if total_points[0] > total_points[1]
+            end
+            if total_points[0] > total_points[1]
 
-                elsif total_points[1] > total_points[0]
-
-                end
-
-              #  binding.pry
+            elsif total_points[1] > total_points[0]
 
             end
+
+            #  binding.pry
         end
     end
 
