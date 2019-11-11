@@ -333,9 +333,10 @@ def winning_team
         team_data.each do |key, value|
             if key == :team_name
 
-              #  value.each do |player|
-                #    points = points + player[:points].to_i
-                #end
+                value.each do |player|
+                    points = points + player[:points].to_i
+                    team_scores.push(points)
+                end
 
 
               #  value.each do |player|
