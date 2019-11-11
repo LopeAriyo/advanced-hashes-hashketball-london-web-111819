@@ -340,7 +340,7 @@ def winning_team
                   #  points = points + player[:points].to_i
                     #team_scores.push(points)
 
-                    
+
 
 
               #  end
