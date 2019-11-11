@@ -375,13 +375,18 @@ def player_with_longest_name
 
     game_hash.each do |team, team_data|
         team_data.each do |key, value|
+          
             if key == :players
 
                 value.each do |player|
                     length_of_name.push(player[:player_name].length-1)
+                    
+                        binding.pry
+                    
                 end
+                
 
-                binding.pry
+            
 
             end
         end
