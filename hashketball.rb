@@ -383,7 +383,7 @@ def player_with_longest_name
             if key == :players
 
                 value.each do |player|
-                    points.push(player[:points].to_i)
+                    length_of_name.push(player[:player_name)
                 end
 
                 points = points.sort
