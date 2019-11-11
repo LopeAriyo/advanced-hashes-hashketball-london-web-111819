@@ -400,7 +400,7 @@ game_hash.each do |team, team_data|
             value.each do |player|
                 if player[:player_name] == player_with_longest_name
 
-                  if player[:steals] > 15
+                  if player[:steals].to_i > 15
                   return true
                   end
                     #binding.pry
