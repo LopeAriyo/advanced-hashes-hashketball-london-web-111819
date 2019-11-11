@@ -403,7 +403,7 @@ game_hash.each do |team, team_data|
 
 
                     #binding.pry
-                
+
 
                 end
             end
