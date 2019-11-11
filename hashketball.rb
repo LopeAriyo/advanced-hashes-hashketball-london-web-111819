@@ -369,7 +369,7 @@ def player_with_longest_name
   # return the name of the player with the most characters
 
 
-  length_of_name = []
+  player_names = []
   longest_name = ""
 
 
@@ -378,11 +378,11 @@ def player_with_longest_name
             if key == :players
 
                 value.each do |player|
-                    length_of_name.push(player[:player_name])
+                    player_names.push(player[:player_name])
                 end
 
-                length_of_name = length_of_name.sort_by{ |name| name.length}
-                longest_name = length_of_name[length_of_name.length-1]
+                player_names = player_names.sort_by{ |name| name.length}
+                longest_name = player_names[player_names.length-1]
 
             end
         end
