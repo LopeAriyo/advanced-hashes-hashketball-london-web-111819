@@ -324,7 +324,7 @@ def winning_team
   #train of thought
   # for each game, search through ALL data to find the sum of points_scored per team
   # when the highest total score is found return the correlating team name
-  
+
 
 
 end
