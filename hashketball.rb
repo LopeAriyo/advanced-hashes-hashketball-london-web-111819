@@ -299,13 +299,13 @@ def most_points_scored
                 points = points.sort
                 most_points = points[points.length-1]
 
-                #value.each do |player|
-                  #if player[:points].to_i == most_points
+                value.each do |player|
+                  if player[:points].to_i == most_points
                   #  player_name= player[:player_name]
                   #  return player_name
                     binding.pry
-                  #end
-                #end
+                  end
+                end
 
             end
         end
