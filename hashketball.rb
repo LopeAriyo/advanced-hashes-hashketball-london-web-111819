@@ -326,7 +326,7 @@ def winning_team
   # when the highest total score is found return the correlating team name
 
   points = 0
-  team_scores = [] 
+  team_scores = []
   team_name = ""
 
     game_hash.each do |team, team_data|
