@@ -298,7 +298,7 @@ def most_points_scored
                 end
 
                 points = points.sort
-                most_points = size[size.length-1]
+                most_points = points[points.length-1]
 
                 value.each do |player|
                   if player[:points].to_i == most_points
