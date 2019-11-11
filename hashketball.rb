@@ -381,7 +381,7 @@ def player_with_longest_name
                     length_of_name.push(player[:player_name].length-1)
                 end
 
-                binding pry
+                binding.pry
 
             end
         end
