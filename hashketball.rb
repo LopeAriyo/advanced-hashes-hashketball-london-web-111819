@@ -386,7 +386,7 @@ def player_with_longest_name
                     length_of_name.push(player[:player_name])
                 end
 
-                length_of_name = length_of_name.by{ |name| name.length}
+                length_of_name = length_of_name.sort_by{ |name| name.length}
                 longest_name = length_of_name[length_of_name.length-1]
 
 
