@@ -347,7 +347,7 @@ def winning_team
                   #end
                 #end
                 binding.pry
-            end
+            #end
         end
     end
 team_name
