@@ -285,6 +285,32 @@ end
 
 
 def most_points_scored
+  points = []
+  most_points = ""
+  player_name = ""
+
+    game_hash.each do |team, team_data|
+        team_data.each do |key, value|
+            if key == :players
+                value.each do |player|
+                        size.push(player[:shoe].to_i)
+                        #binding.pry
+                end
+
+                size = size.sort
+                biggest_size = size[size.length-1]
+
+                value.each do |player|
+                  if player[:shoe].to_i == biggest_size
+                    rebounds = player[:rebounds].to_i
+                    return rebounds
+                    #binding.pry
+                  end
+                end
+
+            end
+        end
+    end
 end
 
 def winning_team
