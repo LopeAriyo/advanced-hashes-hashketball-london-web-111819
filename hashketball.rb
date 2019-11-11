@@ -302,7 +302,7 @@ def most_points_scored
 
 
                 value.each do |player|
-                  if player[:points] == most_points
+                  if player[:points].to_i == most_points
                   #  player_name= player[:player_name]
                   #  return player_name
                     binding.pry
