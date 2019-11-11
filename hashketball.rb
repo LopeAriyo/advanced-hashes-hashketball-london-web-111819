@@ -331,30 +331,26 @@ def winning_team
 
     game_hash.each do |team, team_data|
         team_data.each do |key, value|
-            if key == :players
+            #if key == :players
 
-                value.each do |player|
-                    points = points + player[:points].to_i
-                end
+              #  value.each do |player|
+                #    points = points + player[:points].to_i
+                #end
 
-                points = points.sort
-                most_points = points[points.length-1]
+          
+              #  value.each do |player|
+                #  if player[:points].to_i == most_points
+                    #  player_name= player[:player_name]
+                      
 
+                  #end
+                #end
 
-                value.each do |player|
-                  if player[:points].to_i == most_points
-                      player_name= player[:player_name]
-                      #binding.pry
-
-                  end
-                end
-
-            end
+            #end
+            binding.pry
         end
     end
 team_name
-
-
 
 end
 
