@@ -345,9 +345,8 @@ def winning_team
 
                   #end
                 #end
-
-            #end
-            binding.pry
+                binding.pry
+            end
         end
     end
 team_name
