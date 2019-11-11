@@ -352,8 +352,10 @@ def winning_team
 
 
         end
-        return total_points
+        
     end
+
+    return total_points
 
  #team_name
 end
