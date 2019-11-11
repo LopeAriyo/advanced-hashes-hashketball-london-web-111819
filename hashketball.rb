@@ -373,36 +373,37 @@ def player_with_longest_name
   longest_name_size = ""
   longest_name = ""
 
+
+  points = []
+  most_points = ""
+  player_name = ""
+
     game_hash.each do |team, team_data|
         team_data.each do |key, value|
-
             if key == :players
 
                 value.each do |player|
-                    length_of_name.push(player[:player_name].length-1)
+                    points.push(player[:points].to_i)
                 end
 
-                length_of_name = length_of_name.sort
-                return length_of_name
-                #longest_name_size = length_of_name[length_of_name.length-1]
+                points = points.sort
+                most_points = points[points.length-1]
 
-                #value.each do |player|
-                #  if player[:player_name].length == longest_name_size
-                #    longest_name = player[:player_name]
-                #  end
-                #end
+
+                value.each do |player|
+                  if player[:points].to_i == most_points
+                      player_name= player[:player_name]
+                      #binding.pry
+
+                  end
+                end
 
             end
-
-
-
-
-
         end
-
     end
+player_name
 
-#return longest_name
+    
 
 end
 
