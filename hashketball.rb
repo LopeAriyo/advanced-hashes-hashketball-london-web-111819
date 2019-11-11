@@ -233,7 +233,7 @@ def player_stats(player_name)
 
                           stats[:k]=(:v).to_i
 
-                          
+
                           binding.pry
                         end
 
