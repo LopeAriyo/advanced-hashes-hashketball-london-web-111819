@@ -274,8 +274,8 @@ rebounds = ""
                 if player[:shoe] == biggest_size
                   #rebounds = player[:rebounds]
                   #return rebounds
+                  binding.pry
                 end
-                binding.pry
               end
 
           end
