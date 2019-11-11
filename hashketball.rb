@@ -259,11 +259,11 @@ def big_shoe_rebounds
       team_data.each do |key, value|
           if key == :players
               value.each do |player|
-                  if player[:player_name] == player_name
+                  #if player[:player_name] == player_name
                       size = player[:shoe].to_i
                       return size
                       #binding.pry
-                  end
+                  #end
               end
           end
       end
