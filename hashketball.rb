@@ -342,19 +342,20 @@ def winning_team
                 points = 0
 
             end
-            if total_points[0] > total_points[1]
-              team_name="Brooklyn Nets"
-            else
-              team_name = "Charlotte Hornets"
+            
+            #if total_points[0] > total_points[1]
+            #  team_name="Brooklyn Nets"
+            #else
+            #  team_name = "Charlotte Hornets"
 
               #binding.pry
-            end
+          #  end
 
 
         end
     end
 
- team_name
+ #team_name
 end
 
 def player_with_longest_name
