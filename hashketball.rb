@@ -338,7 +338,7 @@ def winning_team
                     points = points + player[:points].to_i
                     total_points.push(points)
                 end
-                
+
 
                 #points = points.sort
                 #most_points = points[points.length-1]
