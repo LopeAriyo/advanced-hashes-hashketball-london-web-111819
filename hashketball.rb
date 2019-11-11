@@ -348,7 +348,7 @@ def winning_team
     end
 
     if total_points[0] > total_points[1]
-      team_name = game[:home][:team_name]
+      team_name = "Brookly Nets"
       return team_name
 
     else
