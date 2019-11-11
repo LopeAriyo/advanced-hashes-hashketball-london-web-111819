@@ -268,7 +268,7 @@ biggest_size = ""
 
               size = size.sort
               biggest_size = size[size.length-1]
-              
+
           end
       end
   end
