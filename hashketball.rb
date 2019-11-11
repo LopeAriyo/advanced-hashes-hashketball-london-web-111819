@@ -326,21 +326,24 @@ def winning_team
   # when the highest total score is found return the correlating team name
 
   points = 0
-  team_scores = []
+  team_scores = [] #first entry will be home team, second entry will be away team
   team_name = ""
 
     game_hash.each do |team, team_data|
-        team_data.each do |key, value|
-            if key == :team_name
+        value.each do |team|
 
-                value.each do |team|
+      
+        #team_data.each do |key, value|
+            #if key == :team_name
+
+              
                   #  points = points + player[:points].to_i
                     #team_scores.push(points)
 
                       binding.pry
 
 
-                end
+              #  end
 
 
               #  value.each do |player|
@@ -350,7 +353,7 @@ def winning_team
 
                   #end
                 #end
-            end
+            #end
         end
     end
 team_name
