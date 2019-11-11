@@ -264,7 +264,7 @@ size = []
                   #if player[:player_name] == player_name
                       size.push(player[:shoe].to_i)
                       #return size
-                      binding.pry
+                      #binding.pry
                   #end
               end
           end
