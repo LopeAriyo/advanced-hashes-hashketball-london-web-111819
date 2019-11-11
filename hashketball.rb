@@ -293,17 +293,17 @@ def most_points_scored
         team_data.each do |key, value|
             if key == :players
                 value.each do |player|
-                        size.push(player[:shoe].to_i)
-                        #binding.pry
+                    points.push(player[:points].to_i)
+                      
                 end
 
-                size = size.sort
-                biggest_size = size[size.length-1]
+                points = points.sort
+                most_points = size[size.length-1]
 
                 value.each do |player|
-                  if player[:shoe].to_i == biggest_size
-                    rebounds = player[:rebounds].to_i
-                    return rebounds
+                  if player[:points].to_i == most_points
+                    player_name= player[:player_name]
+                    return player_name
                     #binding.pry
                   end
                 end
