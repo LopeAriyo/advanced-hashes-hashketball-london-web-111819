@@ -391,7 +391,7 @@ def player_with_longest_name
                     #return player_name
                     #binding.pry
                   #end
-                  
+
                 #end
 
                 return longest_name_size
