@@ -338,7 +338,7 @@ def winning_team
                     points = points + player[:points].to_i
 
                 end
-                
+
                 total_points.push(points)
                 points = 0 
 
