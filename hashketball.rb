@@ -328,7 +328,7 @@ def winning_team
   points = 0
   total_points = [] #first entry is for home team, second entry is for away team
   most_points = ""
-  player_name = ""
+  team_name = ""
 
     game_hash.each do |team, team_data|
         team_data.each do |key, value|
@@ -348,7 +348,7 @@ def winning_team
 
 
                 #value.each do |player|
-                  #if player[:points].to_i == most_points
+                if total_points[0].to_i == most_points
                       #player_name= player[:player_name]
                       #binding.pry
 
