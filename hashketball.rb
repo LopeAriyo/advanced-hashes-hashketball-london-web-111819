@@ -333,7 +333,7 @@ def winning_team
         team_data.each do |key, value|
 
 
-      
+
             #if key == :team_name
 
 
