@@ -231,7 +231,7 @@ def player_stats(player_name)
                       if player[:player_name] == player_name
                         player.each do |k,v|
 
-                          stats[:k]=(:v).to_i
+                          stats[k]=(v).to_i
 
 
                           binding.pry
