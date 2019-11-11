@@ -252,9 +252,9 @@ end
 def big_shoe_rebounds
 
   #train of thought
-  # for each game, search through ALL data to find the player with the biggest shoe size 
+  # for each game, search through ALL data to find the player with the biggest shoe size
   # when the biggest shoe size is found (no need to return the players name), their number of rebounds will be returned
 
 
-  
+
 end
