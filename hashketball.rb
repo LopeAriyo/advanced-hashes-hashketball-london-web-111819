@@ -325,6 +325,35 @@ def winning_team
   # for each game, search through ALL data to find the sum of points_scored per team
   # when the highest total score is found return the correlating team name
 
+  points = 0
+  team_one_score = 0
+  team_two_score = 0
+
+    game_hash.each do |team, team_data|
+        team_data.each do |key, value|
+            if key == :players
+
+                value.each do |player|
+                    points = points + player[:points].to_i
+                end
+
+                points = points.sort
+                most_points = points[points.length-1]
+
+
+                value.each do |player|
+                  if player[:points].to_i == most_points
+                      player_name= player[:player_name]
+                      #binding.pry
+
+                  end
+                end
+
+            end
+        end
+    end
+team_name
+
 
 
 end
