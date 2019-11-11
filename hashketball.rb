@@ -340,7 +340,7 @@ def winning_team
                 end
 
                 total_points.push(points)
-                points = 0 
+                points = 0
 
 
                 #points = points.sort
