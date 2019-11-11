@@ -271,11 +271,12 @@ rebounds = ""
               biggest_size = size[size.length-1]
 
               value.each do |player|
-                if player[:shoe] == biggest_size
+                return player[:shoe]
+              #  if player[:shoe] == biggest_size
                   #rebounds = player[:rebounds].to_i
                   #return rebounds
                   binding.pry
-                end
+              #  end
               end
 
           end
