@@ -278,5 +278,4 @@ rebounds = ""
           end
       end
   end
-biggest_size
 end
