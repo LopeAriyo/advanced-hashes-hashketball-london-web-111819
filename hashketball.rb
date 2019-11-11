@@ -328,7 +328,7 @@ def winning_team
   points = 0
   team_one_score = 0
   team_two_score = 0
-  win_team = ""
+  team_name = ""
 
     game_hash.each do |team, team_data|
         team_data.each do |key, value|
