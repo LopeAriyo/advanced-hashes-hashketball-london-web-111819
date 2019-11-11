@@ -292,15 +292,16 @@ def most_points_scored
     game_hash.each do |team, team_data|
         team_data.each do |key, value|
             if key == :players
+              
                 value.each do |player|
-                    points.push(player[:points].to_i)
+                    points.push(player[:points])
                 end
 
                 points = points.sort
                 most_points = points[points.length-1]
 
                 value.each do |player|
-                  if player[:points].to_i == most_points
+                  if player[:points] == most_points
                   #  player_name= player[:player_name]
                   #  return player_name
                     binding.pry
