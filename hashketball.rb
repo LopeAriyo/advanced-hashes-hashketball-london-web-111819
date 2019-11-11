@@ -294,7 +294,7 @@ def most_points_scored
             if key == :players
 
                 value.each do |player|
-                    points.push(player[:points])
+                    points.push(player[:points].to_i)
                 end
 
                 points = points.sort
