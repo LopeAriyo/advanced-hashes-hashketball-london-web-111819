@@ -396,8 +396,10 @@ def player_with_longest_name
 
             end
         end
-        return length_of_name
+        
     end
+
+    return length_of_name
 end
 
 def long_name_steals_a_ton?
