@@ -234,7 +234,7 @@ def player_stats(player_name)
                           stats[k]=(v).to_i
 
 
-                          binding.pry
+                          #binding.pry
                         end
 
                         #player.delete_if do |k,v|
