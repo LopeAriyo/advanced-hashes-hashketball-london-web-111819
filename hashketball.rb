@@ -233,8 +233,7 @@ def player_stats(player_name)
 
                           stats[:k]=:v.to_i
 
-                          put each key into stats
-                          put each value into stats but turn into an integer
+                          
                           binding.pry
                         end
 
