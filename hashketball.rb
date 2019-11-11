@@ -342,13 +342,13 @@ def winning_team
                 points = 0
 
             end
-            if total_points[0] > total_points[1]
+            #if total_points[0] > total_points[1]
 
-            elsif total_points[1] > total_points[0]
+            #elsif total_points[1] > total_points[0]
 
               binding.pry
 
-            end
+            #end
         end
     end
 
