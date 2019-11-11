@@ -257,6 +257,7 @@ def big_shoe_rebounds
 
 size = []
 biggest_size = ""
+rebounds = ""
 
   game_hash.each do |team, team_data|
       team_data.each do |key, value|
@@ -268,6 +269,11 @@ biggest_size = ""
 
               size = size.sort
               biggest_size = size[size.length-1]
+
+              if player[:shoe] == biggest_size
+                  rebounds = player[:rebounds]
+                  return rebounds
+              end
 
           end
       end
