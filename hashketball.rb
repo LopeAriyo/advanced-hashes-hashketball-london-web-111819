@@ -332,7 +332,7 @@ def winning_team
     game_hash.each do |team, team_data|
         team_data.each do |key, value|
 
-
+            binding.pry
 
             #if key == :team_name
 
@@ -340,7 +340,7 @@ def winning_team
                   #  points = points + player[:points].to_i
                     #team_scores.push(points)
 
-                      binding.pry
+                    
 
 
               #  end
