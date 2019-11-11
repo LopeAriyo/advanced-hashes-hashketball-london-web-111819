@@ -390,7 +390,7 @@ def player_with_longest_name
                 longest_name = length_of_name[length_of_name.length-1]
 
 
-              
+
 
             end
         end
