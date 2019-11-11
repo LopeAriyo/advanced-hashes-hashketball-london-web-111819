@@ -256,6 +256,7 @@ def big_shoe_rebounds
   # when the biggest shoe size is found (no need to return the players name), their number of rebounds will be returned
 
 size = []
+biggest_size = ""
 
   game_hash.each do |team, team_data|
       team_data.each do |key, value|
@@ -266,6 +267,7 @@ size = []
               end
 
               size = size.sort
+              biggest_size = size[size.length-1]
               
           end
       end
