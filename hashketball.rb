@@ -353,7 +353,7 @@ def winning_team
                 elsif total_points[1] > total_points [0]
 
                 end
-                  
+
                   .to_i == most_points
                       #player_name= player[:player_name]
                       #binding.pry
