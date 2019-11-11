@@ -342,7 +342,8 @@ def winning_team
                 points = 0
 
             end
-            
+
+            total_points
             #if total_points[0] > total_points[1]
             #  team_name="Brooklyn Nets"
             #else
