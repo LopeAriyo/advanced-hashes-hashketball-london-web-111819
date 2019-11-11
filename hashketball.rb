@@ -272,5 +272,5 @@ biggest_size = ""
           end
       end
   end
-size
+biggest_size
 end
