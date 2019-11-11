@@ -362,6 +362,13 @@ def winning_team
 end
 
 def player_with_longest_name
+
+  #train of thought
+  # for each game, for each team, for each player search  for their player name
+  # count the amount of characters in each each name
+  # return the name of the player with the most characters
+
+  
 end
 
 def long_name_steals_a_ton?
