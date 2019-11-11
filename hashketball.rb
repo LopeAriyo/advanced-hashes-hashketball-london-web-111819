@@ -368,7 +368,7 @@ def player_with_longest_name
   # count the amount of characters in each each name
   # return the name of the player with the most characters
 
-  
+
 end
 
 def long_name_steals_a_ton?
