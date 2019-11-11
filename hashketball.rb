@@ -402,7 +402,7 @@ game_hash.each do |team, team_data|
 
                   if player[:steals] > 15
                   return true
-                end
+                  end
                     #binding.pry
 
 
