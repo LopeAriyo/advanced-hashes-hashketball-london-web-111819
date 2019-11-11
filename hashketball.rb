@@ -365,7 +365,7 @@ def player_with_longest_name
 
   #train of thought
   # for each game, for each team, for each player search  for their player name
-  # count the amount of characters in each each name
+  # count the amount of characters (excluding space) in each each name
   # return the name of the player with the most characters
 
 
@@ -381,23 +381,26 @@ def player_with_longest_name
                     length_of_name.push(player[:player_name].length-1)
                 end
 
+                binding pry
 
-                length_of_name = length_of_name.sort
-                longest_name_size = length_of_name[length_of_name.length-1]
-
-                value.each do |player|
-                  if player[:player_name].length == longest_name_size
-                    longest_name = player[:player_name]
-                  end
-                end
             end
         end
 
     end
 
-return longest_name
+#return longest_name
 
 end
 
 def long_name_steals_a_ton?
+
+
+  length_of_name = length_of_name.sort
+  longest_name_size = length_of_name[length_of_name.length-1]
+
+  value.each do |player|
+    if player[:player_name].length == longest_name_size
+      longest_name = player[:player_name]
+    end
+  end
 end
