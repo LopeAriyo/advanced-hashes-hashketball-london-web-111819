@@ -322,7 +322,7 @@ def winning_team
 
 
   #train of thought
-  # for each game, search through ALL data to find the sum of points_scored per team
+  # for each game, for each team search through each player data to find the sum of points scored per team
   # when the highest total score is found return the correlating team name
 
   points = 0
@@ -330,10 +330,10 @@ def winning_team
   team_name = ""
 
     game_hash.each do |team, team_data|
-        value.each do |team|
+        team_data.each do |key, value|
 
 
-        #team_data.each do |key, value|
+      
             #if key == :team_name
 
 
@@ -353,7 +353,7 @@ def winning_team
 
                   #end
                 #end
-            #end
+
         end
     end
 team_name
