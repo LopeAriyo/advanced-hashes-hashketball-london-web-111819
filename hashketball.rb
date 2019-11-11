@@ -262,7 +262,7 @@ size = []
           if key == :players
               value.each do |player|
                   #if player[:player_name] == player_name
-                      #size = player[:shoe].to_i
+                      size.push(player[:shoe].to_i)
                       #return size
                       binding.pry
                   #end
