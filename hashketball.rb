@@ -336,7 +336,6 @@ def winning_team
 
                 value.each do |player|
                     points = points + player[:points].to_i
-
                 end
 
                 total_points.push(points)
