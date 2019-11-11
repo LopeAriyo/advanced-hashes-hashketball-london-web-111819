@@ -262,7 +262,7 @@ def big_shoe_rebounds
                   #if player[:player_name] == player_name
                       #size = player[:shoe].to_i
                       return size
-                      #binding.pry
+                      binding.pry
                   #end
               end
           end
