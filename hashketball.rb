@@ -293,7 +293,7 @@ def most_points_scored
         team_data.each do |key, value|
             if key == :players
                 value.each do |player|
-                    points.push(player[:points].to_i)
+                    points.push(player[:points])
                 end
 
                 points = points.sort
