@@ -299,6 +299,7 @@ def most_points_scored
 
                 points = points.sort
                 most_points = points[points.length-1]
+                
 
                 value.each do |player|
                   if player[:points] == most_points
@@ -311,6 +312,8 @@ def most_points_scored
             end
         end
     end
+
+    most_points
 end
 
 def winning_team
