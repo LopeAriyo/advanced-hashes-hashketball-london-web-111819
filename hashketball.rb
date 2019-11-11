@@ -255,6 +255,8 @@ def big_shoe_rebounds
   # for each game, search through ALL data to find the player with the biggest shoe size
   # when the biggest shoe size is found (no need to return the players name), their number of rebounds will be returned
 
+size = []
+
   game_hash.each do |team, team_data|
       team_data.each do |key, value|
           if key == :players
